@@ -1,9 +1,13 @@
 import React from "react";
+import { Tile } from '../tile/Tile';
 
-export const TileList = () => {
+export const TileList = ({array}) => {
+  const tiles = array.map( (item, index) => {
+    return <Tile entry={item} key={item.name + '_' + index}/>
+  })
   return (
-    <div>
-      
+    <div className="tiles-container">
+      {tiles}
     </div>
   );
 };
