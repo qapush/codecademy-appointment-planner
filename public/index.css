@@ -1,19 +1,27 @@
+html {
+  background: linear-gradient(231deg, rgba(238,174,202,1) 20%, rgba(148,187,233,1) 100%);
+  min-height: 100%;
+}
+
+
 #root {
   padding: 30px;
   font-family: "Open Sans", sans-serif;
+
 }
 
 nav > a {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  color: #000000;
+  color: #052d7a;
   margin-right: 30.5px;
   text-decoration-line: none;
 }
 
 nav > a.active {
-  text-decoration-line: underline;
+  font-weight: bold;
+  color: #e3146a;
 }
 
 nav {
@@ -40,7 +48,7 @@ hr {
 }
 
 input[type="submit"] {
-  background: #03a8d8;
+  background: #e3146a;
   border-radius: 4px;
   color: #ffffff;
   font-weight: bold;
@@ -78,11 +86,29 @@ select {
 }
 
 .tiles-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
 .tile-container {
-  margin-bottom: 20px;
-  border: 1px solid black;
+  margin: 0.3rem;
   padding: 0.5rem;
+  background-color: rgba(214, 224, 247, 0.7);
+  border-radius: 5px;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  color: #052d7a;
+  font-size: 1.5rem;
+}
+
+select option {
+  margin: 40px;
+  background: white;
 }
