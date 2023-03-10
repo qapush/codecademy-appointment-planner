@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/codecademy-appointment-planner/static/css/main.256ae5c3.chunk.css",
-    "main.js": "/codecademy-appointment-planner/static/js/main.a81355af.chunk.js",
-    "main.js.map": "/codecademy-appointment-planner/static/js/main.a81355af.chunk.js.map",
+    "main.css": "/codecademy-appointment-planner/static/css/main.6221386a.chunk.css",
+    "main.js": "/codecademy-appointment-planner/static/js/main.5468ca52.chunk.js",
+    "main.js.map": "/codecademy-appointment-planner/static/js/main.5468ca52.chunk.js.map",
     "runtime-main.js": "/codecademy-appointment-planner/static/js/runtime-main.5265ea35.js",
     "runtime-main.js.map": "/codecademy-appointment-planner/static/js/runtime-main.5265ea35.js.map",
     "static/js/2.b5d57c2a.chunk.js": "/codecademy-appointment-planner/static/js/2.b5d57c2a.chunk.js",
     "static/js/2.b5d57c2a.chunk.js.map": "/codecademy-appointment-planner/static/js/2.b5d57c2a.chunk.js.map",
     "index.html": "/codecademy-appointment-planner/index.html",
-    "static/css/main.256ae5c3.chunk.css.map": "/codecademy-appointment-planner/static/css/main.256ae5c3.chunk.css.map",
+    "static/css/main.6221386a.chunk.css.map": "/codecademy-appointment-planner/static/css/main.6221386a.chunk.css.map",
     "static/js/2.b5d57c2a.chunk.js.LICENSE.txt": "/codecademy-appointment-planner/static/js/2.b5d57c2a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5265ea35.js",
     "static/js/2.b5d57c2a.chunk.js",
-    "static/css/main.256ae5c3.chunk.css",
-    "static/js/main.a81355af.chunk.js"
+    "static/css/main.6221386a.chunk.css",
+    "static/js/main.5468ca52.chunk.js"
   ]
 }
