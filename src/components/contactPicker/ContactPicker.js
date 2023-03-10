@@ -8,7 +8,7 @@ export const ContactPicker = ({contacts, onChange, appointment}) => {
 
   return (
     <select name="name" onChange={onChange} value={appointment.name} required>
-      <option value="">-- select contact --</option>
+      <option value="" disabled>-- select contact --</option>
       {options}
     </select>
   );

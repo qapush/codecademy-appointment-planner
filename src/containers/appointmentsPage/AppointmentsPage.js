@@ -8,6 +8,8 @@ export const AppointmentsPage = ({appointments, contacts, addAppointment}) => {
   appointment info
   */
 
+
+
   const [appointment, setAppointment] = useState({
     title: '',
     name: '',

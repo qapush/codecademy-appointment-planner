@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 import { Switch, Route, Redirect, NavLink } from "react-router-dom";
-
 import { AppointmentsPage } from "./containers/appointmentsPage/AppointmentsPage";
 import { ContactsPage } from "./containers/contactsPage/ContactsPage";
+import './app.css';
 
 function App() {
   /*
@@ -10,14 +10,21 @@ function App() {
   contacts and appointments 
   */
 
-  const testContact = {
-    name: 'Sasha',
-    phone: '123456789',
-    email: 'mail@test.com'
+  const Michael = {
+    name: 'Michael',
+    phone: '570-726-888',
+    email: 'mihail.kapush@gmail.com'
   }
 
-  const [contacts, setContacts] = useState([testContact]); 
-  const [appointments, setAppointments] = useState([]); 
+  const codeReview = {
+    title: 'Code Review',
+    name: 'Michael',
+    date: '2023-04-01',
+    time: '15:30'
+  }
+
+  const [contacts, setContacts] = useState([Michael]); 
+  const [appointments, setAppointments] = useState([codeReview]); 
 
   const ROUTES = {
     CONTACTS: "/contacts",
