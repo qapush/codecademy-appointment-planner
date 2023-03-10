@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/codecademy-appointment-planner/static/css/main.6221386a.chunk.css",
-    "main.js": "/codecademy-appointment-planner/static/js/main.5468ca52.chunk.js",
-    "main.js.map": "/codecademy-appointment-planner/static/js/main.5468ca52.chunk.js.map",
+    "main.js": "/codecademy-appointment-planner/static/js/main.a81355af.chunk.js",
+    "main.js.map": "/codecademy-appointment-planner/static/js/main.a81355af.chunk.js.map",
     "runtime-main.js": "/codecademy-appointment-planner/static/js/runtime-main.5265ea35.js",
     "runtime-main.js.map": "/codecademy-appointment-planner/static/js/runtime-main.5265ea35.js.map",
     "static/js/2.b5d57c2a.chunk.js": "/codecademy-appointment-planner/static/js/2.b5d57c2a.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.5265ea35.js",
     "static/js/2.b5d57c2a.chunk.js",
     "static/css/main.6221386a.chunk.css",
-    "static/js/main.5468ca52.chunk.js"
+    "static/js/main.a81355af.chunk.js"
   ]
 }
