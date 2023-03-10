@@ -16,6 +16,24 @@ function App() {
     email: 'mihail.kapush@gmail.com'
   }
 
+  const Zo = {
+    name: 'Zofia',
+    phone: '570-726-888',
+    email: 'oszczepalinska.mazurkiewicz@multidekor.com'
+  }
+
+  const Zu = {
+    name: 'Zuza',
+    phone: '570-726-888',
+    email: 'Mihail.kapush@.sdasd.c'
+  }
+
+  const To = {
+    name: 'Tmk',
+    phone: '570-726-888',
+    email: 'tmk@o2.pl'
+  }
+
   const codeReview = {
     title: 'Code Review',
     name: 'Michael',
@@ -23,7 +41,7 @@ function App() {
     time: '15:30'
   }
 
-  const [contacts, setContacts] = useState([Michael]); 
+  const [contacts, setContacts] = useState([Michael, Zo, To, Zu]); 
   const [appointments, setAppointments] = useState([codeReview]); 
 
   const ROUTES = {

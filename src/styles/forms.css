@@ -16,7 +16,9 @@ form {
     font-family: "Open Sans", sans-serif;
     margin-top: 10px;
     margin-bottom: 0px;
+    cursor: pointer;
   }
+
   
   input,
   select {
